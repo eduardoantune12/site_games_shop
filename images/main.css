@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(6, 6, 82);
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+
+    /*Colocando o conteudo(link) no canto direito da tela*/
+    justify-content: space-between;
+}
+
+.brands_list img{
+    height: 24px;
+}
+
+.brands_list li{
+    display: inline;
+    margin-right: 6px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 18px;
+}
+
+section{
+    color: rgb(6, 6, 82);
+}
+
+section p{
+    margin-bottom: 10px;
+}
+
+.store_front{
+    margin-right: 16px;
+}
+
+.social_medias img{
+    height: 24px;
+}
+
+.social_medias li{
+    display: inline;
+    margin-right: 4px;
+    margin-left: 12px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact_ways{
+    display: flex;
+justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(6, 6, 82);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(24, 24, 117);
+}
+
+input:focus,
+textarea:focus{
+    outline-color: rgb(6, 6, 82);
+}
+
+footer{
+    background-color: rgb(6, 6, 82);
+    color: white;
+    padding: 16px 0;
+}
